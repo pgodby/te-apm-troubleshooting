@@ -38,4 +38,4 @@ Before you begin, you must first complete all of the previous lab exercises.
 </details>
 
 ---
-**Labs Exercises:** [1](Lab1.md) | [2](Lab2.md) | [3](Lab3.md) | 4 | [Help](Help.md)
+**Lab Exercises:** [1](Lab1.md) | [2](Lab2.md) | [3](Lab3.md) | [4](Lab4.md) | [Help](Help.md)
