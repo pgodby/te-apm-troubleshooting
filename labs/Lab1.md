@@ -5,7 +5,7 @@ In this lab exercise, you will deploy a set of Docker containers that are requir
 
 | Container | Config File | Description |
 | --- | --- | --- |
-| splunk_otel_collector | collector.env | The Splunk OpenTelemetry Collector instance that will be used to forward trace data to Splunk Application Performance Monitoring (APM). This instance is running in agent mode and will provide services for all instrumented applications. |
+| splunk-otel-collector | collector.env | The Splunk OpenTelemetry Collector instance that will be used to forward trace data to Splunk Application Performance Monitoring (APM). This instance is running in agent mode and will provide services for all instrumented applications. |
 | server | server.env | An auto-instrumented Node.js server application |
 | client | client.env | A manually instrumented Python client application |
 
