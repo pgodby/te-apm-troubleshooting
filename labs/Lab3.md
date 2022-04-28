@@ -9,7 +9,7 @@ Before you begin, you must first complete all of the previous lab exercises.
 ## Lab Exercise 3
 1. The customer has implemented the suggested changes from the previous lab and has responded with the following information:
 
-    > Thank you for the help! Can you now help us understand why we are not seeing any data from our Node.js server? We are using auto-instrumentation and started the server with the following command: node -r @splunk/otel/instrument index.js
+    > Thank you for helping us enable the OTEL Collector debug logs! Can you now help us understand why we are not seeing any data from our Node.js server? We are using auto-instrumentation and started the server with the following command: node -r @splunk/otel/instrument index.js
 
 1. Return to the interactive shell attached to the **server** container (see Lab 1).
 1. Investigate the issues with the server.

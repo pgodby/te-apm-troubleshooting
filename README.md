@@ -13,6 +13,7 @@ This workshop will demonstrate how to troubleshoot issues that might be encounte
 ## Prerequisites
 All lab exercises share the following set of requirements:
 
+- Completed the Splunk Coach course: **O11y Support - OpenTelemetry Instrumentation Troubleshooting**
 - Knowledge of OpenTelemetry and how it is used to send trace/span data to Splunk APM
 - You have [git](https://git-scm.com/) installed to clone this repository
 - You are a member of a Splunk APM enabled organization in the Splunk Observability Cloud and you have a valid access token from the organization

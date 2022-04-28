@@ -1,7 +1,7 @@
 # Deploy the Base Environment
 
 ## Overview
-In this lab exercise, you will deploy a set of Docker containers that are required for the troubleshooting exercises. Environment variables for a container can be set in the specified configuration file (located in the [/base](../base) directory).
+In this lab exercise, you will deploy a set of Docker containers that are required for the troubleshooting exercises. Environment variables can be set for a container using the configuration file specified in the table below. The configuration files are all located in the [/base](../base) directory.
 
 | Container | Config File | Description |
 | --- | --- | --- |
@@ -42,7 +42,7 @@ For this lab exercise, you should only make the changes specified below. The tro
     docker exec -it client sh
     splunk-py-trace python Client.py
     ```
-1. In the Splunk Observability Cloud, review your deployment for activity. The Python client will send a REST request to the Node.js server once every 30 seconds. It might take several minutes for the data to fully appear. You may not see everything you would normally expect to see. This is intended.
+1. In the Splunk Observability Cloud, review your deployment for activity. After you navigate to the APM homepage, use the dropdown menus to filter for your environment. The Python client will send a REST request to the Node.js server once every 30 seconds. It might take several minutes for the data to fully appear. You may not see everything you would normally expect to see. This is intended.
 1. Review the [Help](Help.md) section for tips on working with the Docker containers.
 
 ---

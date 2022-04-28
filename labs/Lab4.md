@@ -9,7 +9,7 @@ Before you begin, you must first complete all of the previous lab exercises.
 ## Lab Exercise 4
 1. The customer has implemented the suggested changes from the previous lab and has responded with the following information:
 
-    > Thank you for the help! Can you help us understand why we are not seeing any spans for our REST requests from our Python application? We are using manual instrumentation and can see our manual spans. How do we capture the REST requests? We started the server with the following command: splunk-py-trace python Client.py
+    > Thank you for helping fix our Node.js auto-instrumentation issues! Can you now help us understand why we are not seeing any spans for our REST requests from our Python application? We are using manual instrumentation and can see our manual spans. How do we capture the REST requests? We started the server with the following command: splunk-py-trace python Client.py
 
 1. Return to the interactive shell attached to the **client** container (see Lab 1).
 1. Investigate the issues with the client.
